@@ -9,8 +9,7 @@ public class A03ex03 {
     public static void main(String[] args) {
        try{
            System.out.printf("Digite a nota: ");
-           Scanner s = new Scanner(System.in);
-           float nota = s.nextFloat();
+           float nota = Float.parseFloat(args[0]);
            if (nota > 10) {
             throw new Exception("Número muito grande");
            }
