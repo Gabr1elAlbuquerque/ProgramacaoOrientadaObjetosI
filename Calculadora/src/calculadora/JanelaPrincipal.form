@@ -48,11 +48,11 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnMultiplicacao" max="32767" attributes="0"/>
+                          <Component id="btnResultado" max="32767" attributes="0"/>
                           <Component id="btnDivisao" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnSubtracao" alignment="0" max="32767" attributes="0"/>
                           <Component id="btnAdicao" alignment="0" min="-2" pref="47" max="-2" attributes="0"/>
-                          <Component id="btnMultiplicacao1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnMultiplicacao" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -89,10 +89,10 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btn0" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
-                  <Component id="btnMultiplicacao1" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="btnMultiplicacao" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="btnMultiplicacao" min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="btnResultado" min="-2" pref="43" max="-2" attributes="0"/>
               <EmptySpace pref="11" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -172,9 +172,9 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnMultiplicacao">
+    <Component class="javax.swing.JButton" name="btnResultado">
       <Properties>
-        <Property name="text" type="java.lang.String" value="x"/>
+        <Property name="text" type="java.lang.String" value="="/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btn1">
@@ -195,7 +195,7 @@
         <Property name="text" type="java.lang.String" value="&#xf7;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btnMultiplicacao1">
+    <Component class="javax.swing.JButton" name="btnMultiplicacao">
       <Properties>
         <Property name="text" type="java.lang.String" value="x"/>
       </Properties>

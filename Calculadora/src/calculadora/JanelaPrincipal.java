@@ -37,11 +37,11 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         btn4 = new javax.swing.JButton();
         btn0 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
-        btnMultiplicacao = new javax.swing.JButton();
+        btnResultado = new javax.swing.JButton();
         btn1 = new javax.swing.JButton();
         btn2 = new javax.swing.JButton();
         btnDivisao = new javax.swing.JButton();
-        btnMultiplicacao1 = new javax.swing.JButton();
+        btnMultiplicacao = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -100,7 +100,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnMultiplicacao.setText("x");
+        btnResultado.setText("=");
 
         btn1.setText("1");
 
@@ -113,7 +113,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
 
         btnDivisao.setText("÷");
 
-        btnMultiplicacao1.setText("x");
+        btnMultiplicacao.setText("x");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -141,11 +141,11 @@ public class JanelaPrincipal extends javax.swing.JFrame {
                             .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnMultiplicacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnResultado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnDivisao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnSubtracao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnAdicao, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnMultiplicacao1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                            .addComponent(btnMultiplicacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addGap(81, 81, 81))
         );
         layout.setVerticalGroup(
@@ -174,9 +174,9 @@ public class JanelaPrincipal extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn0, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnMultiplicacao1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnMultiplicacao, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnMultiplicacao, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(11, Short.MAX_VALUE))
         );
 
@@ -263,7 +263,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnAdicao;
     private javax.swing.JButton btnDivisao;
     private javax.swing.JButton btnMultiplicacao;
-    private javax.swing.JButton btnMultiplicacao1;
+    private javax.swing.JButton btnResultado;
     private javax.swing.JButton btnSubtracao;
     private javax.swing.JButton jButton10;
     private javax.swing.JTextField txtVisor;
